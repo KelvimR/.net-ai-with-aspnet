@@ -1,0 +1,6 @@
+@dotnet_ai_with_aspnet_HostAddress = http://localhost:5248
+
+GET {{dotnet_ai_with_aspnet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

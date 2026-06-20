@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA3E01A-6287-4DDE-93A6-34DC69170CF5}|dotnet-ai-with-aspnet.csproj|c:\\temp\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\dotnet-ai-with-aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFA3E01A-6287-4DDE-93A6-34DC69170CF5}|dotnet-ai-with-aspnet.csproj|solutionrelative:dotnet-ai-with-aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dotnet-ai-with-aspnet",
+              "DocumentMoniker": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\dotnet-ai-with-aspnet.csproj",
+              "RelativeDocumentMoniker": "dotnet-ai-with-aspnet.csproj",
+              "ToolTip": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\dotnet-ai-with-aspnet.csproj",
+              "RelativeToolTip": "dotnet-ai-with-aspnet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-19T23:22:09.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
