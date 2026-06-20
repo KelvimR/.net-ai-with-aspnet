@@ -47,7 +47,7 @@ jobs:
 
       #Build
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ./dotnet-ai-with-aspnet/*.slnx --configuration Release --no-restore
 
       #Tests
       - name: Run tests
