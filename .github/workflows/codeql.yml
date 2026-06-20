@@ -37,13 +37,13 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.nuget/packages
-          key: ${{ runner.os }}-nuget-${{ hashFiles('dotnet-ai-with-aspnet/**/*.csproj', 'dotnet-ai-with-aspnet/**/packages.lock.json') }}
+          key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj', '**/packages.lock.json') }}
           restore-keys: |
             ${{ runner.os }}-nuget-
 
       #Restore
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore "./dotnet-ai-with-aspnet/dotnet-ai-with-aspnet.slnx"
 
       #Build
       - name: Build
