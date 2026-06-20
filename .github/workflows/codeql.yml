@@ -51,7 +51,7 @@ jobs:
 
       #Tests
       - name: Run tests
-        run: dotnet test --no-build --verbosity normal
+        run: dotnet test ./dotnet-ai-with-aspnet/*.slnx --no-build --verbosity normal
 
       #Lint / Formatação
       - name: Check code formatting
