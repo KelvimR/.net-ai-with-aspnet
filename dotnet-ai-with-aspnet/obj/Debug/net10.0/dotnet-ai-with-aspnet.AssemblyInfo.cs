@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotnet-ai-with-aspnet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c393485210626e3beefc40aa83d09c3b7ca1d7ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8822f982c5a070301d5f08e3fbf5304c382e39e")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotnet-ai-with-aspnet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotnet-ai-with-aspnet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

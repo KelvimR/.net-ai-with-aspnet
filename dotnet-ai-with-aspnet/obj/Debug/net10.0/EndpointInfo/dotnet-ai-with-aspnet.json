@@ -1,0 +1,210 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": ".NET AI API",
+    "description": "Essa API prove funcionalidades como chat, geracao de imagens... ",
+    "termsOfService": "https://www.linkedin.com/in/kelvim-rodrigues-dev/",
+    "contact": {
+      "name": "Kelvim Rodrigues",
+      "url": "https://www.linkedin.com/in/kelvim-rodrigues-dev/",
+      "email": "kelvimrodrigues1@gmail.com"
+    },
+    "license": {
+      "name": "Apache 2 license",
+      "url": "https://www.linkedin.com/in/kelvim-rodrigues-dev/"
+    },
+    "version": "v1"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7065"
+    },
+    {
+      "url": "http://localhost:8080"
+    }
+  ],
+  "paths": {
+    "/ask-ai": {
+      "get": {
+        "tags": [
+          "GenerativeAI"
+        ],
+        "parameters": [
+          {
+            "name": "prompt",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/ask-ai-options": {
+      "get": {
+        "tags": [
+          "GenerativeAI"
+        ],
+        "parameters": [
+          {
+            "name": "prompt",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Generate-image": {
+      "get": {
+        "tags": [
+          "GenerativeAI"
+        ],
+        "parameters": [
+          {
+            "name": "prompt",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "quality",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "hd"
+            }
+          },
+          {
+            "name": "n",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "height",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32",
+              "default": 1024
+            }
+          },
+          {
+            "name": "width",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32",
+              "default": 1024
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Transcription-audio": {
+      "get": {
+        "tags": [
+          "GenerativeAI"
+        ],
+        "parameters": [
+          {
+            "name": "ContentType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "ContentDisposition",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Headers",
+            "in": "query",
+            "schema": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "name": "Length",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int64"
+            }
+          },
+          {
+            "name": "Name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "FileName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "GenerativeAI"
+    }
+  ]
+}

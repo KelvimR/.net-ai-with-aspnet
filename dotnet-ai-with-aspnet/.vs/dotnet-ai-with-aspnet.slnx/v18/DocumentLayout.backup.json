@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFA3E01A-6287-4DDE-93A6-34DC69170CF5}|dotnet-ai-with-aspnet.csproj|c:\\temp\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\dotnet-ai-with-aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EFA3E01A-6287-4DDE-93A6-34DC69170CF5}|dotnet-ai-with-aspnet.csproj|solutionrelative:dotnet-ai-with-aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|c:\\temp\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|c:\\temp\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\extensions\\openaiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|solutionrelative:extensions\\openaiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|c:\\temp\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\controller\\generativeaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|solutionrelative:controller\\generativeaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|c:\\temp\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12F3ABC3-0BA9-F683-78CD-7AAF27F78077}|dotnet-ai-with-aspnet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,16 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dotnet-ai-with-aspnet",
-              "DocumentMoniker": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\dotnet-ai-with-aspnet.csproj",
-              "RelativeDocumentMoniker": "dotnet-ai-with-aspnet.csproj",
-              "ToolTip": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\dotnet-ai-with-aspnet.csproj",
-              "RelativeToolTip": "dotnet-ai-with-aspnet.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-19T23:22:09.638Z",
+              "DocumentIndex": 1,
+              "Title": "OpenAIExtensions.cs",
+              "DocumentMoniker": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\Extensions\\OpenAIExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\OpenAIExtensions.cs",
+              "ToolTip": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\Extensions\\OpenAIExtensions.cs",
+              "RelativeToolTip": "Extensions\\OpenAIExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T13:43:33.084Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-25T13:41:00.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenerativeAIController.cs",
+              "DocumentMoniker": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\Controller\\GenerativeAIController.cs",
+              "RelativeDocumentMoniker": "Controller\\GenerativeAIController.cs",
+              "ToolTip": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\Controller\\GenerativeAIController.cs",
+              "RelativeToolTip": "Controller\\GenerativeAIController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T12:52:41.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\TEMP\\.net-ai-with-aspnet\\dotnet-ai-with-aspnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:14:10.554Z"
             }
           ]
         }
