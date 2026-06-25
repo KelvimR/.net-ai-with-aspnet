@@ -61,7 +61,7 @@ jobs:
 
       # Format (opcional validar)
       - name: Check code formatting
-        run: dotnet format ./dotnet-ai-with-aspnet/ --verify-no-changes
+        run: dotnet format ./dotnet-ai-with-aspnet/dotnet-ai-with-aspnet.slnx --verify-no-changes
 
       # análise depois do build
       - name: Run CodeQL Analysis
