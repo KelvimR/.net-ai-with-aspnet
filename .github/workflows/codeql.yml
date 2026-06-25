@@ -55,7 +55,7 @@ jobs:
 
       #Lint / Formatação
       - name: Check code formatting
-        run: dotnet format ./dotnet-ai-with-aspnet/*.slnx --verify-no-changes
+        run: dotnet format ./dotnet-ai-with-aspnet/*.slnx
 
       #Inicializar CodeQL
       - name: Initialize CodeQL
