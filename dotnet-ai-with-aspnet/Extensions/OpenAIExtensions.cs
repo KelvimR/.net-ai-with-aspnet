@@ -17,7 +17,7 @@ public static class OpenAIExtensions
         {
             Endpoint = new Uri("https://api.deepseek.com")
         };
-        
+
         //var openAIClient = new OpenAIClient(apiKey);
         var openAIClient = new OpenAIClient(new ApiKeyCredential(apiKey), option);
 

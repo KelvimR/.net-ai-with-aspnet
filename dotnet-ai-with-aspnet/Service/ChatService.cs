@@ -34,7 +34,8 @@ public class ChatService
         };
 
         //options
-        var options = new ChatCompletionOptions { 
+        var options = new ChatCompletionOptions
+        {
             Temperature = 0.4f, // Sempre ficar abaixo de 0.8 pra não alucinar
             MaxOutputTokenCount = 200
         };

@@ -68,7 +68,7 @@ namespace dotnet_ai_with_aspnet.Controller
             catch
             {
                 return StatusCode(500, "An error occurred while processing your audio file!");
-            }            
+            }
         }
     }
 }

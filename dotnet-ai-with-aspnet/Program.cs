@@ -20,11 +20,11 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(
     {
         builder.AllowAnyOrigin()
         .AllowAnyMethod()
-        .AllowAnyHeader();       
+        .AllowAnyHeader();
     }
 ));
 
-builder.Services.AddOpenApi(options => 
+builder.Services.AddOpenApi(options =>
 {
     options.AddDocumentTransformer((document, context, _) =>
     {
@@ -39,7 +39,7 @@ builder.Services.AddOpenApi(options =>
                 Email = "kelvimrodrigues1@gmail.com",
                 Url = new Uri("https://www.linkedin.com/in/kelvim-rodrigues-dev/")
             },
-            License = new ()
+            License = new()
             {
                 Name = "Apache 2 license",
                 Url = new Uri("https://www.linkedin.com/in/kelvim-rodrigues-dev/")
